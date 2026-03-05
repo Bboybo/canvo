@@ -1,0 +1,61 @@
+name: 💡 Feature Request
+description: Suggest a new feature or improvement for Canvo
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love hearing your ideas! Please describe the feature you'd like to see.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What problem does this feature solve? Or describe the use case.
+      placeholder: "I often find myself wanting to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How do you envision this feature working?
+      placeholder: "It would be great if Canvo could..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature Area
+      description: Which part of Canvo does this relate to?
+      options:
+        - Canvas / Visual Output
+        - Linux Sandbox / Terminal
+        - Tool System
+        - Heartbeat / Scheduled Tasks
+        - Memory / Knowledge Base
+        - AI Provider / Model Support
+        - UI / Design
+        - Settings / Configuration
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've thought of?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or mockups?
+    validations:
+      required: false
