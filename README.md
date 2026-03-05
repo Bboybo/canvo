@@ -9,15 +9,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/canvo-app/canvos/releases/latest"><img src="https://img.shields.io/github/v/release/canvo-app/canvos?style=flat-square&color=00C896&label=Latest%20Release" /></a>
-  <a href="https://github.com/canvo-app/canvos/releases"><img src="https://img.shields.io/github/downloads/canvo-app/canvos/total?style=flat-square&color=5B6EE1&label=Downloads" /></a>
+  <a href="https://github.com/canvo-app/canvo/releases/latest"><img src="https://img.shields.io/github/v/release/canvo-app/canvo?style=flat-square&color=00C896&label=Latest%20Release" /></a>
+  <a href="https://github.com/canvo-app/canvo/releases"><img src="https://img.shields.io/github/downloads/canvo-app/canvo/total?style=flat-square&color=5B6EE1&label=Downloads" /></a>
   <a href="https://www.virustotal.com/gui/file/96a3b047a31f26a5acf53bc6032af3ecd10d3fc188760b0c64dff205b89f4c00"><img src="https://img.shields.io/badge/VirusTotal-0%2F66%20Clean-00C896?style=flat-square&logo=virustotal&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Platform-Android%2013%2B-3DDC84?style=flat-square&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-Beta-FFA500?style=flat-square" />
 </p>
 
 <p align="center">
-  <a href="https://canvo.cloud">Website</a> · <a href="https://github.com/canvo-app/canvos/releases/latest">Download APK</a> · <a href="PRIVACY.md">Privacy</a> · <a href="mailto:dev@canvo.cloud">Contact</a>
+  <a href="https://canvo.cloud">Website</a> · <a href="https://github.com/canvo-app/canvo/releases/latest">Download APK</a> · <a href="PRIVACY.md">Privacy</a> · <a href="mailto:dev@canvo.cloud">Contact</a>
 </p>
 
 ---
@@ -88,7 +88,7 @@ Chat naturally, and the agent renders your world: **dashboards, charts, quizzes,
 
 ## 📥 Install
 
-1. Download the latest APK from [**Releases**](https://github.com/canvo-app/canvos/releases/latest)
+1. Download the latest APK from [**Releases**](https://github.com/canvo-app/canvo/releases/latest)
 2. On your Android device, enable **Settings → Install unknown apps** for your browser
 3. Open the downloaded APK and tap **Install**
 4. Launch Canvo and configure your AI provider in Settings
@@ -129,8 +129,8 @@ Switch between AI providers per session. Use the best model for the task.
 
 Canvo is in **active beta development**. We're looking for early testers to help shape the product:
 
-- 🐛 **Found a bug?** [Open an issue](https://github.com/canvo-app/canvos/issues/new)
-- 💡 **Feature idea?** [Start a discussion](https://github.com/canvo-app/canvos/issues/new)
+- 🐛 **Found a bug?** [Open an issue](https://github.com/canvo-app/canvo/issues/new)
+- 💡 **Feature idea?** [Start a discussion](https://github.com/canvo-app/canvo/issues/new)
 - 📧 **Direct feedback:** [dev@canvo.cloud](mailto:dev@canvo.cloud)
 
 Every piece of feedback helps us build a better experience. Thank you for testing! 🙏
